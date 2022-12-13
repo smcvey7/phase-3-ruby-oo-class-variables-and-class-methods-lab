@@ -39,6 +39,10 @@ describe Song do
       Song.class_variable_set(:@@count, 0)
       Song.class_variable_set(:@@artist_count, {})
       Song.class_variable_set(:@@genre_count, {})
+      Song.class_variable_set(:@@genre_count, {})
+      Song.class_variable_set(:@@genre_count_hash, {})
+      Song.class_variable_set(:@@artist_count_hash, {})
+
 
       # create new instances using the Song class
       Song.new("Lucifer", "Jay-Z", "rap")
